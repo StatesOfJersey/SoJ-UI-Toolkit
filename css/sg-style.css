@@ -39,26 +39,18 @@ body {
 }
 
 .sg-wrapper {
-  position: relative; /* Used to help sidebar height go all the way down the page */
-}
+ }
 
 .sg-main,
 .sg-sidebar {
-  padding-top: 24px; /* For older browsers */
-  padding-top: 1.5rem;
-  padding-bottom: 16px; /* For older browsers */
-  padding-bottom: 1rem;
-}
+ 
+ }
 
 .sg-sidebar {
-  background: #3d3d3d;
-  color: #fff;
-  font-size: 80%;
-  padding-left: 16px; /* For older browsers */
-  padding-left: 0 1rem;
-  padding-right: 16px; /* For older browsers */
-  padding-right: 0 1rem;
+  background: #eef0f0;
+  padding-top:20px;
 }
+
 
 .js .sg-sidebar {
   opacity: 0;
@@ -77,21 +69,21 @@ body {
 }
 
 @media screen and (min-width: 1025px) {
-  .sg-sidebar,
   .js .sg-sidebar,
   .js.nav-is-active .sg-sidebar {
     bottom: 0;
     float: left;
     font-size: 100%;
     opacity: 1;
-    position: absolute;
     top: 0;
-    width: 25%;
+  }
+
+  .js .sg-sidebar {
+    position:relative;
   }
 
   .sg-main {
-    float: right;
-    width: 75%;
+    
   }
 }
 
@@ -151,55 +143,11 @@ body {
 /* Fonts
 ---------------------------------------------------------------------------- */
 
-/* SG Font 1 */
-.sg-font1,
-.sg-logo,
-.sg-about p,
-.sg-color-value  {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 400;
-}
 
-/* SG Font 2 */
-.sg-font2,
-.sg-logo em,
-.sg-nav-toggle,
-.sg-h1,
-.sg-h2,
-.sg-h3,
-.sg-color-name,
-.sg-font-list dt  {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 500;
-}
 
 /* Branding
 ---------------------------------------------------------------------------- */
-.sg-logo {
-  float: left;
-  font-size: 1em;
-  line-height: 2;
-  margin: 0;
-  padding: 0;
-}
 
-.sg-logo-full {
-  display: none;
-}
-
-.sg-logo em {
-  font-style: normal;
-}
-
-@media screen and (min-width: 650px) {
-  .sg-logo-initials {
-    display: none;
-  }
-
-  .sg-logo-full {
-    display: inline;
-  }
-}
 
 /* Navigation
 ---------------------------------------------------------------------------- */
@@ -245,7 +193,6 @@ body {
 .sg-nav-group a,
 .sg-nav-group a:visited {
   border-left: 2px solid transparent;
-  color: #fff;
   display: block;
   font-size: 1.2em;
   padding: .35em 0 .35em .5em;
@@ -275,110 +222,12 @@ body {
 
 /* Typography
 ---------------------------------------------------------------------------- */
-.sg-h1,
-.sg-h2,
-.sg-h3 {
-  margin-bottom: 1em;
-  margin-top: 0;
-}
 
-.sg-h1 {
-  font-size: 2em;
-  padding-bottom: .2em;
-  text-transform: capitalize;
-}
-
-.sg-h2 {
-  border-bottom: 1px solid #ddd;
-  font-size: 1.75em;
-  margin-bottom: .75em;
-  padding-bottom: .2em;
-  text-transform: capitalize;
-}
-
-.sg-h3 {
-  font-size: 1.5em;
-}
-
-.sg-about p {
-  font-size: 1.1em;
-}
 
 
 /* Buttons
 ---------------------------------------------------------------------------- */
-.sg-btn {
-  background: #cbcbcb;
-  border: none;
-  color: #222;
-  float: left;
-  font-size: 16px; /* For older browsers */
-  font-size: 1rem;
-  padding: .5em .9em;
-  text-decoration: none;
-}
-
-.sg-btn--top {
-  float: right;
-}
-
-.sg-btn--source,
-.sg-btn--select {
-  display: none;
-}
-
-/* Show specific buttons we cut the mustard */
-.sg-enhanced .sg-btn--source {
-  display: block;
-}
-
-@media screen and (min-width: 1025px) {
-  .sg-enhanced .sg-btn--select {
-    display: block;
-  }
-}
-
-.sg-btn--select {
-  border-radius: 0 0.2em;
-  position: absolute;
-  right: 1px;
-  top: 1px;
-  z-index: 1;
-}
-
-.sg-btn--select-active:hover:after{
-  background: #111; /* For older browsers */
-  background: rgba(0,0,0,.8);
-  border-radius: 5px;
-  color: #fff;
-  content: "Selected code ready to be copied";
-  display: block;
-  padding: 8px 16px; /* For older browsers */
-  padding: 0.5rem 1rem;
-  position: absolute;
-  right: 8px; /* For older browsers */
-  right: 0.5rem;
-  top: 48px; /* For older browsers */
-  top: 3rem;
-  white-space: nowrap;
-  z-index: 98;
-}
-
-.sg-btn--select-active:hover:before{
-  border-color: transparent transparent #111 transparent;
-  border-style: solid;
-  border-width: 0 10px 10px 10px;
-  content: "";
-  display: block;
-  height: 0;
-  left: 45%;
-  position: absolute;
-  top: 40px;
-  top: 2.5rem;
-  width: 0;
-  z-index: 99;
-}
-
+.
 /* Sections
 ---------------------------------------------------------------------------- */
 .sg-section {
