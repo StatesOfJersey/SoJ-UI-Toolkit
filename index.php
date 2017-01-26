@@ -3,38 +3,58 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>States of Jersey UI Toolkit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
 
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
-  <!--[if lt IE 9]><link rel="stylesheet" href="css/sg-style-old-ie.css"><![endif]-->
 
   <!-- https://github.com/sindresorhus/github-markdown-css -->
   <link rel="stylesheet" href="css/github-markdown.css">
 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <!-- Replace below stylesheet with your own stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/GovJE.min.css">
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
 </head>
 <body>
+
+<header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-sm-7 sitetitle">
+            <a title="gov.je home" href="/Pages/default.aspx"><img alt="" src="https://www.gov.je/_controltemplates/15/C5.GovJEResponsive/images/Leoaprds-white-V1.svg">ui.gov.je</a>
+            <p class="hidden-xs info noindex">States of Jersey Web UI Toolkit</p>
+
+        </div>
+        <div class="col-md-4 col-sm-5">
+
+            <ul class="right hidden-xs noindex">
+                 <button type="button" class="sg-nav-toggle">Menu</button>
+            </ul>
+            <ul class="right visible-xs noindex">
+                <li>
+                   
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+</header>
+
   <a href="#main" class="sg-visually-hidden sg-visually-hidden-focusable">Skip to main content</a>
 
-  <div id="top" class="sg-header" role="banner">
-    <div class="sg-container">
-      <h1 class="sg-logo">
-        <span class="sg-logo-initials">SG</span>
-        <span class="sg-logo-full">STYLE GUIDE</span> <em>BOILERPLATE</em>
-      </h1>
-      <button type="button" class="sg-nav-toggle">Menu</button>
-    </div>
-  </div><!--/.sg-header-->
 
+<div class="container-fluid">
+<div class="row">
   <div class="sg-wrapper sg-clearfix">
-    <div id="nav" class="sg-sidebar" role="navigation">
+    <div id="nav" class="sg-sidebar col-md-3" role="navigation">
       <h2 class="sg-h2 sg-subnav-title">About</h2>
       <ul class="sg-nav-group">
         <li>
@@ -51,7 +71,7 @@
       <?php listFilesInFolder('markup'); ?>
     </div><!--/.sg-sidebar-->
 
-    <div id="main" class="sg-main" role="main">
+    <div id="main" class="sg-main col-md-9" role="main">
       <div class="sg-container">
         <div class="sg-info">
           <div class="sg-about sg-section">
@@ -161,6 +181,8 @@
       </div><!--/.sg-container-->
     </div><!--/.sg-main-->
   </div><!--/.sg-wrapper-->
+  </div>
+  </div>
 
   <!--[if gt IE 8]><!--><script src="vendor/prism/prism.js"></script><!--<![endif]-->
   <script src="js/sg-scripts.js"></script>
