@@ -21,6 +21,10 @@
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
+
+   <script src="//use.typekit.net/npl5qjc.js"></script>
+   <script>try { Typekit.load(); } catch (e) { }</script>
+
 </head>
 <body>
 
@@ -54,14 +58,14 @@
 <div class="container-fluid">
 <div class="row">
   <div class="sg-wrapper sg-clearfix">
-    <div id="nav" class="sg-sidebar col-md-3" role="navigation">
-      <h2 class="sg-h2 sg-subnav-title">About</h2>
+    <div id="nav" class="sg-sidebar col-md-3 col-lg-2" role="navigation">
+      <h2 class="sg-h2 sg-subnav-title">Info</h2>
       <ul class="sg-nav-group">
         <li>
           <a href="#sg-about">Getting Started</a>
         </li>
         <li>
-          <a href="#sg-colors">Colors</a>
+          <a href="#sg-colors">Colours</a>
         </li>
         <li>
           <a href="#sg-fontStacks">Fonts</a>
@@ -71,84 +75,169 @@
       <?php listFilesInFolder('markup'); ?>
     </div><!--/.sg-sidebar-->
 
-    <div id="main" class="sg-main col-md-9" role="main">
+    <div id="main" class="sg-main col-md-9 col-lg-10" role="main">
       <div class="sg-container">
         <div class="sg-info">
           <div class="sg-about sg-section">
             <h2 id="sg-about" class="sg-h2">Getting Started</h2>
-            <p>A living style guide is a great tool to promote visual consistency, unify UX designers and front-end developers, as well as speed up development times. Add some documentation here on how to get started with your new style guide and start customizing this boilerplate to your liking.</p>
-            <p>If you are looking for resources on style guides, check out <a href="http://styleguides.io">styleguides.io</a>. There are a ton of great articles, books, podcasts, talks, and other style guide tools!</p>
+            <p>www.gov.je has been designed as accessible as possible for all users, while at the same time the design was focused on a ‘mobile  rst’ in-line with current browsing and internet use trends.</p>
+            <p>The design style is very light on images and colours, the idea being to make the content easy to  nd and read for all users.</p>
+            <p>This style guide includes information on various aspects of the site design and details many of the elements that are required when new sections of the website and sub-sites are developed.</p>
           </div><!--/.sg-about-->
 
-          <!-- Manually add your UI colors here. -->
+          <!-- Primary Colours -->
           <div class="sg-colors sg-section">
-            <h2 id="sg-colors" class="sg-h2">Colors</h2>
-            <div class="sg-color-grid">
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #1abc9c;"></div>
-                <div class="sg-color-name">Turquoise</div>
-                <div class="sg-color-value">#1abc9c</div>
+            <h2 id="sg-colors" class="sg-h2">Primary Colors</h2>
+            <div class="row">
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #b60011;"></div>
+                <div class="sg-color-name">Red</div>
+                <div class="sg-color-value">
+                  <p>Web: #B60011<br/>
+                     RGB: 182, 0, 17<br/>
+                     CMYK: 17, 100, 100, 8
+                  </p>
+                </div>
               </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #2ecc71;"></div>
-                <div class="sg-color-name">Emerald</div>
-                <div class="sg-color-value">#2ecc71</div>
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #1D1D1B;"></div>
+                <div class="sg-color-name">Charcoal</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #1D1D1B<br/>
+                    RGB: 29, 29, 29<br/>
+                    CMYK: 0, 0, 0, 100
+                  </p>
+                </div>
               </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #3498db;"></div>
-                <div class="sg-color-name">Peter River</div>
-                <div class="sg-color-value">#3498db</div>
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #585958;"></div>
+                <div class="sg-color-name">Dark Grey</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #585958<br/>
+                    RGB: 88, 89, 88<br/>
+                    CMYK: 0, 0, 0, 74
+                  </p>
+                </div>
               </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #9b59b6;"></div>
-                <div class="sg-color-name">Amethyst</div>
-                <div class="sg-color-value">#9b59b6</div>
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #EEF0F0;"></div>
+                <div class="sg-color-name">Light Grey</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #EEF0F0<br/>
+                    RGB: 238, 240, 240<br/>
+                    CMYK: 0, 0, 0, 7
+                  </p>
+               </div>
+              </div>   
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #FFFFFF; border:1px solid #EEF0F0"></div>
+                <div class="sg-color-name">White</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #FFFFFF<br/>
+                    RGB: 255, 255, 255<br/>
+                    CMYK: 0, 0, 0, 0
+                  </p>
+                </div>
+              </div>   
+            </div>            
+          </div><!--/.sg-colors-->
+
+           <!-- Secondary Colours -->
+          <div class="sg-colors sg-section">
+            <h2 id="sg-colors" class="sg-h2">Secondary Colors</h2>
+            <div class="row">
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #7D7D7D;"></div>
+                <div class="sg-color-name">Mid Grey</div>
+                <div class="sg-color-value">
+                  <p>Web: #7D7D7D<br/>
+                     RGB: 125, 125, 125<br/>
+                     CMYK: 0, 0, 0, 60
+                  </p>
+                </div>
               </div>
-            </div><!--/.sg-color-grid-->
-            <div class="sg-color-grid">
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #f1c40f;"></div>
-                <div class="sg-color-name">Sun Flower</div>
-                <div class="sg-color-value">#f1c40f</div>
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #67b0EA;"></div>
+                <div class="sg-color-name">Focus Blue Light</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #67b0EA<br/>
+                    RGB: 103, 176, 234<br/>
+                    CMYK: 55, 18, 0, 0
+                  </p>
+                </div>
               </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #e67e22;"></div>
-                <div class="sg-color-name">Carrot</div>
-                <div class="sg-color-value">#e67e22</div>
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #095AA2;"></div>
+                <div class="sg-color-name">Focus Blue Dark</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #095AA2<br/>
+                    RGB: 89, 90, 162<br/>
+                    CMYK: 96, 70, 0, 0
+                  </p>
+                </div>
               </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #e74c3c;"></div>
-                <div class="sg-color-name">Alizarin</div>
-                <div class="sg-color-value">#e74c3c</div>
-              </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #c0392b;"></div>
-                <div class="sg-color-name">Pomegranate</div>
-                <div class="sg-color-value">#c0392b</div>
-              </div>
-            </div><!--/.sg-color-grid-->
-            <div class="sg-color-grid">
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #ecf0f1;"></div>
-                <div class="sg-color-name">Clouds</div>
-                <div class="sg-color-value">#ecf0f1</div>
-              </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #95a5a6;"></div>
-                <div class="sg-color-name">Silver</div>
-                <div class="sg-color-value">#95a5a6</div>
-              </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #697374;"></div>
-                <div class="sg-color-name">Concrete</div>
-                <div class="sg-color-value">#697374</div>
-              </div>
-              <div class="sg-color">
-                <div class="sg-color-swatch" style="background-color: #111313;"></div>
-                <div class="sg-color-name">Obsidian</div>
-                <div class="sg-color-value">#111313</div>
-              </div>
-            </div><!--/.sg-color-grid-->
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #31B255;"></div>
+                <div class="sg-color-name">Green button</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #31B255<br/>
+                    RGB: 49, 178, 85<br/>
+                    CMYK: 76, 1, 92, 0
+                  </p>
+               </div>
+              </div>   
+              <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #1565d6;"></div>
+                <div class="sg-color-name">Blue Button</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #1565d6<br/>
+                    RGB: 21, 101, 214<br/>
+                    CMYK: 84, 62, 0, 0
+                  </p>
+                </div>
+              </div>  
+               <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #E0E0E0;"></div>
+                <div class="sg-color-name">Table Borders</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #E0E0E0<br/>
+                    RGB: 224, 224, 224<br/>
+                    CMYK: 0, 0, 0, 15
+                  </p>
+                </div>
+              </div>  
+               <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #666666;"></div>
+                <div class="sg-color-name">Button Bottom border</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #666666<br/>
+                    RGB: 102, 102, 102<br/>
+                    CMYK: 0, 0, 0, 69
+                  </p>
+                </div>
+              </div>  
+               <div class="col-lg-2 col-sm-4 col-xs-6">
+                <div class="sg-color-swatch" style="background-color: #E1E3E3;"></div>
+                <div class="sg-color-name">Paging box border</div>
+                <div class="sg-color-value">
+                  <p>
+                    Web: #E1E3E3<br/>
+                    RGB: 225, 227, 227<br/>
+                    CMYK: 0, 0, 0, 14
+                  </p>
+                </div>
+              </div>   
+            </div>            
           </div><!--/.sg-colors-->
 
           <!-- Manually add your fonts here. -->
@@ -156,22 +245,19 @@
             <h2 id="sg-fontStacks" class="sg-h2">Font Stacks</h2>
             <dl class="sg-font-list">
               <dt>Primary Font:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dd style="font-family: 'proxima-nova', Arial, sans-serif;">"proxima-nova", Arial, sans-serif;</dd>
 
-              <dt>Primary Font Italic:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-style: italic;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dt>Primary Font semibold:</dt>
+              <dd style="font-family: 'proxima-nova', Arial, sans-serif; font-weight: 500;">"proxima-nova", Arial, sans-serif;</dd>
 
-              <dt>Primary Font Bold:</dt>
-              <dd style='font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; font-weight: 800;'>"HelveticaNeue", Helvetica, Arial, sans-serif;</dd>
+              <dt>Primary Font bold:</dt>
+              <dd style="font-family: 'proxima-nova', Arial, sans-serif; font-weight: 800;">"proxima-nova", Arial, sans-serif;</dd>
+<br/>
+              <dt>Fall-back Font:</dt>
+              <dd style='font-family: Arial, sans-serif;'>Arial, sans-serif;</dd>
 
-              <dt>Secondary Font:</dt>
-              <dd style='font-family: Georgia, Times, "Times New Roman", serif;'>Georgia, Times, "Times New Roman", serif;</dd>
-
-              <dt>Secondary Font Italic:</dt>
-              <dd style='font-family: Georgia, Times, "Times New Roman", serif; font-style: italic;'>Georgia, Times, "Times New Roman", serif;</dd>
-
-              <dt>Secondary Font Bold:</dt>
-              <dd style='font-family: Georgia, Times, "Times New Roman", serif; font-weight: 800;'>Georgia, Times, "Times New Roman", serif;</dd>
+              <dt>Fall-back Font bold:</dt>
+              <dd style='font-family: Arial, sans-serif; font-weight: bold;'>Arial, sans-serif;</dd>
             </dl>
             <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
           </div><!--/.sg-font-stacks-->
