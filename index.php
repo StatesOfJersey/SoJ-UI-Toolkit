@@ -3,7 +3,7 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-  <title>States of Jersey UI Toolkit</title>
+  <title>States of Jersey Dev Toolkit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
 
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Replace below stylesheet with your own stylesheet -->
-  <link rel="stylesheet" href="css/GovJE.min.css">
+  <link rel="stylesheet" href="css/GovJE.css">
 
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
@@ -31,21 +31,20 @@
 <header>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8 col-sm-7 sitetitle">
-            <a title="gov.je home" href="/Pages/default.aspx"><img alt="" src="https://www.gov.je/_controltemplates/15/C5.GovJEResponsive/images/Leoaprds-white-V1.svg">ui.gov.je</a>
-            <p class="hidden-xs info noindex">States of Jersey Web UI Toolkit</p>
+        <div class="col-md-12 col-sm-9 sitetitle">
+            <a title="gov.je home" href="/Pages/default.aspx"><img alt="" src="https://www.gov.je/_controltemplates/15/C5.GovJEResponsive/images/Leoaprds-white-V1.svg">devtoolkit.gov.je</a>
+            <p class="hidden-xs info noindex">
+              States of Jersey Web User Interface Toolkit <br/>
+              <span class="subheading hidden-sm hidden-xs">A guide to the usage of the frontend UI toolkit to be used on all State of Jersey websites</span>
+            </p>
 
         </div>
-        <div class="col-md-4 col-sm-5">
+        <div class="hidden-md hidden-lg col-sm-3">
 
-            <ul class="right hidden-xs noindex">
+            <ul class="right noindex">
                  <button type="button" class="sg-nav-toggle">Menu</button>
             </ul>
-            <ul class="right visible-xs noindex">
-                <li>
-                   
-                </li>
-            </ul>
+           
         </div>
     </div>
 

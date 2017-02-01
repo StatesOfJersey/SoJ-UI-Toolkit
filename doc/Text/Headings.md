@@ -1,0 +1,1 @@
+Each page should contain a single `<h1>` tag as part of the overall SEO strategy. Do not use multiple `<h1>` tags on a page as this will have a negative affect on the SEO page ranking.

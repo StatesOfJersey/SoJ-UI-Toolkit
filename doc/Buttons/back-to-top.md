@@ -1,0 +1,1 @@
+The “Back to top” button features on all www.gov.je web pages on all devices. Clicking it scrolls the web page to the top and it only appears once the user has scrolled far enough down the page to make the the header disappear. You can ignore the inline CSS, this is purely to show it in this format.

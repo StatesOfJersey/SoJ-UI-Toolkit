@@ -34,8 +34,7 @@ body {
 
 .sg-info,
 .sg-section-group {
-  padding-bottom: 32px; /* For older browsers */
-  padding-bottom: 2rem;
+  margin-bottom: 15em;
 }
 
 .sg-wrapper {
@@ -49,6 +48,12 @@ body {
 .sg-sidebar {
   background: #eef0f0;
   padding-top:20px;
+}
+
+.sg-section {
+ margin-bottom:1.5em;
+ padding-bottom:3em;
+ border-bottom:1px solid #eee;
 }
 
 
@@ -85,6 +90,7 @@ body {
   .sg-main {
     
   }
+
 }
 
 /* -------------------------------------------------------------------------
@@ -172,16 +178,20 @@ body {
 /* Branding
 ---------------------------------------------------------------------------- */
 
+.subheading {
+  font-weight:normal;
+  font-size:14px;
+}
 
 /* Navigation
 ---------------------------------------------------------------------------- */
 .sg-nav-toggle {
-  background-color: #000;
-  border-radius: 5px;
-  border: 1px solid #7C7C7C;
+  background:none;
+  border:none;
   color: #fff;
   float: right;
   font-size: 16px;
+  font-weight:bold;
   font-size: 1rem;
   padding: 5px 8px; /* For older browsers */
   padding: 0.3125rem 0.5rem;
@@ -254,10 +264,8 @@ body {
 .
 /* Sections
 ---------------------------------------------------------------------------- */
-.sg-section {
-  margin-bottom: 32px; /* For older browsers */
-  margin-bottom: 3rem;
-}
+
+
 
 /* Colors
 ---------------------------------------------------------------------------- */
@@ -329,7 +337,6 @@ body {
 }
 
 .sg-font-list dd {
-  border-bottom: 1px solid #ddd;
   display: block;
   margin-bottom: .75em;
   margin-left: 0;
@@ -347,8 +354,7 @@ body {
 /* Markup
 ---------------------------------------------------------------------------- */
 .sg-doc {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .sg-markup-controls {

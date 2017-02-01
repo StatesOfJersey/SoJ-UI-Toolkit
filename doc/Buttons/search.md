@@ -1,0 +1,1 @@
+Single button on a search page.
